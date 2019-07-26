@@ -19,4 +19,12 @@ public class User {
     public void setPawwword(String pawwword) {
         this.pawwword = pawwword;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", pawwword='" + pawwword + '\'' +
+                '}';
+    }
 }
